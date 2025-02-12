@@ -1,5 +1,5 @@
 1. Slicing is the process of extraction of part of **list,tuples,strings** in python.
-2. Slicing can be used with the slicing operator **[]** and **[:]**
+2. Slicing can be used with the slicing operator **[ ]** and **[:]**
 3. The syntax for slice operation is [start:end:step] where **start** specifies the begining index of a substring, **end** specifies the last charcter of a string, **step** specifies the number of charcters to move forward after first charcter retrieved from the string.
 4. In slicing, the **start** index is inclusive whereas **end** index is exclusive.
 5. Omitting either **start** or **end** index by default takes the start and end of the string. Omitting both the indexes means entire string.
