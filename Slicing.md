@@ -12,16 +12,11 @@
        - Example: print(name[1:])
          
 6. Slicing on **list,tuple**
-  - Consider the following example of list
-     - **list1=[2,4,6,8,10,12,14,16]**
-     - **print(list1[3:6])** will extract the part of given list as follows:
-     - **[8,10,12]**
-     - **print(list1[:6]** will use default start index(0).
-     - **[2,4,6,8,10,12]**
-     - **print(list1[3:]** will use default end index(n).
-     - **[8,10,12,14,16]**
-     - **print(list1[::])** will use default start(0) and end(n) index.
-     - **print(list1[-1:-5])** will display the output as follows:
-     - **[]** as slicing moves from left to right by default, and -1 comes after -5 in the string. Since the default step is +1, Python will not extract anything because it can't move forward from -1 to -5. An empty [] will be printed because the slice direction is incorrect.
-     - If you want to extract characters in reverse order (from -1 to -5), you need to specify a negative step as follows:
-     print(list1[-1:-5:-1])
+  - Consider the list  **list1=[2,4,6,8,10,12,14,16]**
+     - **print(list1[3:6])** will extract the part of given list as : **[8,10,12]**
+     - **print(list1[:6]** will use default start index(0): **[2,4,6,8,10,12]**
+     - **print(list1[3:]** will use default end index(n): **[8,10,12,14,16]**
+     - **print(list1[::])** will use default start(0) and end(n) index: **[2,4,6,8,10,12,14,16]**
+     - **print(list1[-1:-5])** will display the output as: **[]**
+       - slicing moves from left to right by default, and -1 comes after -5 in the string. Since the default step is +1, Python will not extract anything because it can't move forward from -1 to -5. An empty [] will be printed because the slice direction is incorrect.
+     - If you want to extract characters in reverse order (from -1 to -5), you need to specify a negative step as: **print(list1[-1:-5:-1])**
