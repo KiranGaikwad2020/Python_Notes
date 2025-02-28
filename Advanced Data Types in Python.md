@@ -23,7 +23,7 @@ index [1] etc.
 ## Dictionary
 - A dictionary is a mutable unordered collection of key-value pairs.
 - It is used to store data values in a key-based format, making it easy to retrieve values quickly.
-- Example: Features = {"City of Knowledge":"Pune", "City of Dreams":"Mumbai","City of oranges:"Nagpur"}
+- Example: Features = {"City of Knowledge":"Pune", "City of Dreams":"Mumbai","City of oranges":"Nagpur"}
 
 ## Set
 - A set is an unordered, mutable, and unindexed collection of unique elements in Python.
