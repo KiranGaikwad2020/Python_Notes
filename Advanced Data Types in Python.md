@@ -1,5 +1,5 @@
 # Advanced Data Types :
-○Lists
-○Tuples
-○Sets
-○Dictionary
+○ Lists
+○ Tuples
+○ Sets
+○ Dictionary
